@@ -63,6 +63,23 @@ Open your browser and go to:
 http://127.0.0.1:5000/
 ```
 
+##  API Endpoints
+
+The following REST API endpoints are available:
+
+| Method | Endpoint           | Description             |
+|--------|--------------------|-------------------------|
+| GET    | `/events`          | Get all events          |
+| POST   | `/events`          | Create a new event      |
+| PUT    | `/events/<id>`     | Update an event         |
+| DELETE | `/events/<id>`     | Delete an event         |
+| GET    | `/search?q=term`   | Search events by query  |
+
+You can use these endpoints directly via Postman or your frontend interface.
+
+---
+
+
 You’ll see a full UI to "add, view, edit, delete, and search" events.
 
 
