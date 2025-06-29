@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus, textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 4px #3498db44;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.event {
+    background: #ecf0f1;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #3498db;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.event:hover {
+    background-color: #e0e7ec;
+}
+
+.event h3 {
+    margin: 0;
+    color: #2c3e50;
+}
+
+.event p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.event button {
+    margin-top: 10px;
+    margin-right: 10px;
+    background: #e74c3c;
+}
+
+.event button:hover {
+    background: #c0392b;
+}
